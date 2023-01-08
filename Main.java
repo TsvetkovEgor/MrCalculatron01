@@ -30,7 +30,7 @@ class Main {
         String[] chis = input.split(implSplit[fate]);
         for (int i = 0; i < impl.length; i++) {
             if (chis.length >2||chis.length >2||chis[0].contains(impl[i])||chis[1].contains(impl[i])) {
-                System.out.println("Выражение должно состоять из 2х операндов, 1 оператора.");
+                System.out.println("Выражение должно состоять из 2х операндов, 1 оператора."); 
                 System.exit(0);
             }
         }
