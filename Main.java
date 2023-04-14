@@ -2,6 +2,7 @@ package MrCalculatron01;
 
 class Main {
     static Convertron convert = new Convertron();
+    public int b = 0;
     /////////////////////////0////1////2////3///////////////////////////////////////////////////////////////////////////
     static String[] impl = {"+", "-", "/", "*"};///Массив с символами операций
     /// Массив из корого берется значение под определенным индексом
@@ -12,7 +13,7 @@ class Main {
     public static String calc(String input) {
 
 
-        int fate = -1;  /// Будущий индекс введенной операции
+        int fate = -1;  /// Будущий индекс введенной операции 2
 
         for (int i = 0; i < impl.length; i++) {
             if (input.contains(impl[i])) {
